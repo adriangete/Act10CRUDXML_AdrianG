@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <link rel="shortcut icon" href="./imagenes/Logo.png">
+  <title>Plantilla</title>
+  <link rel="stylesheet" href="./css/plantilla.css">
+  <script src="datos.js"></script>
+</head>
+
+<body>
+  <div>
+    <header id="cabecera">
+      <!--<img src="imagenes/parque.jpg" alt="Parque">-->
+      <h1 id="titulo">Crud Array Parques</h1>
+
+      
+    </header>
+  </div>
+  <div>
+    <nav id="menu">
+      <input type="checkbox" id="menuopciones">
+      <label for="menuopciones"> ☰ </label>    
+      <ul>
+        <li id="bGrabar">Grabar</li>
+        <li id="bModificar">Modificar</li>
+        <li id="bBorrar">Borrar</li>
+        <li id="bSiguiente">Siguiente</li>
+        <li id="bAnterior">Anterior</li>
+        <li id="bTabla">Tabla</li>
+      </ul>
+
+    </nav>
+  </div>
+  <div>
+    <section id="seccion">
+      <article>
+        <header>
+          <hgroup>
+            <h1>Registro Parques</h1>
+             
+          </hgroup>
+          
+        </header>
+       
+        <body>
+          <table style="width: 100%">
+            <tr>
+              <td style="width: 146px">Nombre</td>
+              <td>
+      
+                <input id="Nombre" type="text" style="width: 300px" value="" />
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 46px; height: 26px;">Latitud</td>
+      
+              <td style="height: 26px">
+      
+                <input id="Latitud" type="text" style="width: 300px" />
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 146px">Longitud</td>
+              <td>
+      
+                <input id="Longitud" type="text" style="width: 300px" />
+              </td>
+            </tr>
+      
+            <tr>
+              <td style="width: 146px">Calle</td>
+              <td>
+      
+                <input id="Calle" type="text" style="width: 300px" />
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 146px">Aforo</td>
+              <td>
+      
+      
+                <input id="Aforo" type="text" style="width: 300px" />
+              </td>
+            </tr>
+            <tr>
+      
+              <td style="width: 146px">&nbsp;</td>
+              <td>
+      
+                &nbsp;</td>
+            </tr>
+          </table>
+      
+      
+        </body>
+      </article>
+      <article>
+        <header>
+          <hgroup>
+            <h1>Tabla de Parques</h1>
+        
+        </header>
+        <table id="tabla" class="tablaLibros" border="1">
+          <tbody id="cuerpoTabla">
+            <tr>
+              <td style="height: 25px">NOMBRE</td>
+              <td style="height: 25px">LATITUD</td>
+              <td style="height: 25px">LONGITUD</td>
+              <td style="width: 482px">CALLE</td>
+              <td style="height: 25px">AFORO</td>
+            </tr>
+          </tbody>
+          </table>
+      
+      </article>
+    </section>
+    <footer id="pie">
+      Ejercicio Crud Adrián Gete
+    </footer>
+  </div>
+  <script src="./js/funciones.js"></script>
+</body>
+
+</html>

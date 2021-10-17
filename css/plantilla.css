@@ -1,0 +1,56 @@
+body{
+  background-color: #B3FFF9;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+div{
+  margin: 15px;
+}
+
+#titulo{
+  display: inline;
+}
+nav input{
+  display: none;
+}
+nav label{
+  display: none;
+}
+#cabecera {
+  background: #FFB3DA;
+  text-align: center;
+  padding: 5px;
+}
+#menu {
+  background: #FFD4B3;
+  padding: 10px 15px;
+}
+#menu li {
+  display: inline-block;
+  list-style: none;
+  color: #FF9E54;
+  padding: 1px 10px 10px 10px;
+} 
+li:hover {
+  border-bottom: 2px solid #FF9E54;
+}  
+#pie {
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #999999;
+}
+article {
+  background: #FFB3DA;
+  border: 1px solid #999999;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+.tablaLibros{
+  width: 100%;
+  border:2px #004466 solid
+}
+.tablaLibros tbody tr td{
+  margin-right:55px;
+}
